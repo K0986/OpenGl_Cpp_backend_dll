@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{BF50D5E6-6110-6D0A-BE92-5AF3C2E6F7E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Aimbot">
+      <UniqueIdentifier>{5E8BCBBC-12CA-EF62-1608-1B86FB486710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Memory">
+      <UniqueIdentifier>{53BE8925-FAC3-C475-B10B-3E211D352590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Rendering">
+      <UniqueIdentifier>{2EBDA541-A2AD-F7D0-7E8B-440D34C63622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Setup">
+      <UniqueIdentifier>{AD941E5A-2D6B-DBA6-3696-7E3926EAAA54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{D5DD05B0-82B6-8A45-9CE2-44E2D0F88244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\Include">
+      <UniqueIdentifier>{2F688E97-F63D-CE1C-EF0C-1E5FD1B69597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\Source">
+      <UniqueIdentifier>{302426D3-1AB1-0DFA-CE5F-063C83A646D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\Source\hde">
+      <UniqueIdentifier>{25B84443-6DCC-63E1-33D3-06C2E0332622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-5BCC-D652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Aimbot">
+      <UniqueIdentifier>{75722E2D-942A-124C-4CC5-267ED1AD583D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Memory">
+      <UniqueIdentifier>{71744F7E-D336-1A69-EE68-ED4A678B24C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rendering">
+      <UniqueIdentifier>{C37A1832-A3DE-F87E-6A2E-A8BB832864F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Setup">
+      <UniqueIdentifier>{5EE2E09A-F8BE-58EE-9031-045E2CC4E6D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adb.cpp">
+      <Filter>Source\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>Source\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="aimvisible.cpp">
+      <Filter>Source\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>Source\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="esp_render.cpp">
+      <Filter>Source\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_draw.cpp">
+      <Filter>Source\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>Source\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Source\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay.cpp">
+      <Filter>Source\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe_server.cpp">
+      <Filter>Source\Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="setup.cpp">
+      <Filter>Source\Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="silentaim.cpp">
+      <Filter>Source\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook/src/buffer.c">
+      <Filter>MinHook\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook/src/hook.c">
+      <Filter>MinHook\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook/src/trampoline.c">
+      <Filter>MinHook\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook/src/hde/hde32.c">
+      <Filter>MinHook\Source\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook/src/hde/hde64.c">
+      <Filter>MinHook\Source\hde</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adb.h">
+      <Filter>Header\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Header\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="aimvisible.h">
+      <Filter>Header\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Header\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="esp_render.h">
+      <Filter>Header\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_draw.h">
+      <Filter>Header\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>Header\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay.h">
+      <Filter>Header\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="pipe_server.h">
+      <Filter>Header\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="setup.h">
+      <Filter>Header\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="silentaim.h">
+      <Filter>Header\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_pool.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponindex.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook/include/MinHook.h">
+      <Filter>MinHook\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook/src/buffer.h">
+      <Filter>MinHook\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook/src/trampoline.h">
+      <Filter>MinHook\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook/src/hde/hde32.h">
+      <Filter>MinHook\Source\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook/src/hde/hde64.h">
+      <Filter>MinHook\Source\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook/src/hde/pstdint.h">
+      <Filter>MinHook\Source\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook/src/hde/table32.h">
+      <Filter>MinHook\Source\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook/src/hde/table64.h">
+      <Filter>MinHook\Source\hde</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
